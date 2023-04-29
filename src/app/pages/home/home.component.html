@@ -1,0 +1,103 @@
+<app-header>
+</app-header>
+  <section class="section3 blog-post-entry bg-light slant-top" id="servicio">
+    <div>
+      <div class="row justify-content-start text-start mb-3">
+        <div class="col-md-8 primary-bg-text">
+
+          <h2 class="subtitulo" data-aos="fade-up" data-aos-delay="100">Propuestas</h2>
+
+
+        </div>
+      </div>
+      <div class="row">
+        <a [routerLink]="['/clasesonline']" class="col-lg-4 col-md-6 col-sm-6 col-12 post">
+
+          <div class="media media-custom d-block mb-4" data-aos="fade-up" data-aos-delay="100">
+            <a class="mb-4 d-block"><img src="../../../assets/clasesonline.jpeg" height="275px" alt="Imagen clases online" class="card-img-top"></a>
+            <div class="media-body">
+              <span class="meta-post">Hay vacantes</span>
+              <h2 class="titulo text-center"><a class="titulo" href="#">CLASES ONLINE</a></h2>
+              <p class="texto text-dark">Para brindarte clases que se ajusten a tus objetivos, elaboro planificaciones que potenciadas con la utilización de aplicaciones como jitsi, presentaciones de google...</p>
+            </div>
+          </div>
+
+        </a>
+        <a [routerLink]="['/clasespresenciales']"  class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
+          <div class="media media-custom d-block mb-4">
+            <a href="https://www.instagram.com/teby.music/" target="_blank" class="mb-4 d-block"><img src="../../../assets/clasespresenciales.jpeg" alt="Imagen clases presenciales" height="275px" class="card-img-top"></a>
+            <div class="media-body">
+              <span class="meta-post">Consultar disponibilidad
+              </span>
+              <h2 class="titulo text-center"><a href="#" class="titulo">PRESENCIALES</a></h2>
+              <p class="texto text-dark">En estos momentos no estoy brindando clases presenciales, pero suelen ser a domicilio o en mi estudio, no necesitas traer tu violin... </p>
+            </div>
+          </div>
+        </a>
+        <a [routerLink]="['/presentacionesenvivo']" class="col-lg-4 col-md-6 col-sm-12 col-12 post" data-aos="fade-up" data-aos-delay="300">
+          <div class="media media-custom d-block mb-4">
+            <a href="https://www.instagram.com/teby.music/" target="_blank" class="mb-4 d-block"><img src="../../../assets/Presentaciones en vivo.jpg" alt="Imagen presentaciones en vivo" height="275px" class="card-img-top"></a>
+            <div class="media-body">
+              <span class="meta-post">Contrate ya!</span>
+              <h2 class="titulo text-center"><a href="#" class="titulo">PRESENTACIONES</a></h2>
+              <p class="texto text-dark">Realizo presentaciones a pedido, grabadas o en vivo, para esa persona, que debido a la realidad actual no puedes ver... </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+
+<section class="section1">
+  <div class="acomodar-img">
+    <div data-aos="fade-up" data-aos-delay="100" class="section1-img">
+      
+    </div>
+  </div>
+    <div class="section1-texto" id="sobre">
+      <div class="perfil">
+      <h2 class="titulo1" data-aos="fade-up" data-aos-delay="100">Ayala Esteban, Profesor, Violinista, Guitarrista y Productor musical.</h2>
+      <a class="contact" data-aos="fade-up" data-aos-delay="100" [routerLink]="['/acerca']"><button class="boton" style="color: #573d5c;" mat-raised-button>Ver más</button></a> 
+      <!-- <h2 class="subtitulo" data-aos="fade-up" data-aos-delay="100">.</h2>
+        
+        <p class="texto" data-aos="fade-up" data-aos-delay="100"> </p>-->
+     <!--   <div class="cajita1" data-aos="fade-up" data-aos-delay="100">
+          <svg class="bi bi-music-note icono" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
+            <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
+          </svg> <p>
+            Repertorio de Tango, Folklore, Jazz, Pop, Irish, rock, etc.</p>
+          
+           <svg class="bi bi-award-fill icono" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+              <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+            </svg> <p>
+              Profesorado de musica especialista en violin tango.</p>
+        </div>
+        
+        <div class="cajita2" data-aos="fade-up" data-aos-delay="100"> 
+              <svg class="bi bi-book-half icono" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z"/>
+                <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869z"/>
+              </svg>
+              <p>
+              Mas de 4 años de especializacion y experiencia como docente.
+            </p>
+              <svg class="bi bi-building icono" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M15.285.089A.5.5 0 0 1 15.5.5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 .418-.493l5.582-.93V3.5a.5.5 0 0 1 .324-.468l8-3a.5.5 0 0 1 .46.057zM7.5 3.846V8.5a.5.5 0 0 1-.418.493l-5.582.93V15h8v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.222l-7 2.624z"/>
+                <path fill-rule="evenodd" d="M6.5 15.5v-7h1v7h-1z"/>
+                <path d="M2.5 11h1v1h-1v-1zm2 0h1v1h-1v-1zm-2 2h1v1h-1v-1zm2 0h1v1h-1v-1zm6-10h1v1h-1V3zm2 0h1v1h-1V3zm-4 2h1v1h-1V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm-2 2h1v1h-1V7zm2 0h1v1h-1V7zm-4 0h1v1h-1V7zm0 2h1v1h-1V9zm2 0h1v1h-1V9zm2 0h1v1h-1V9zm-4 2h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1z"/>
+              </svg> <p>
+              Estudiante en Escuela de musica popular Avellaneda.</p>
+       </div>-->
+      </div> 
+    </div>
+  
+  
+  </section>
+
+
+  

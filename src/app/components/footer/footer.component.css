@@ -1,0 +1,101 @@
+.footer-section {
+    color: #573d5c;
+    padding: 5%;
+  }
+  
+  .footer-section h3 {
+    color: #573d5c;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section a {
+    color: #573d5c;
+  }
+  
+  .footer-section a:hover {
+    color: black;
+  }
+  
+  .footer-section p {
+    color: #573d5c;
+  }
+  
+  .footer-section .bordertop {
+    border-top: 1px solid #573d5c;
+    padding-top: 20px;
+  }
+  
+  .footer-section .contact-info span.d-block {
+    color: #573d5c;
+  }
+  
+  .footer-section .social a {
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .footer-section .link li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-newsletter .form-group {
+    position: relative;
+  }
+  
+  .footer-newsletter .form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #573d5c;
+    border-radius: 0;
+    color: #573d5c;
+  }
+  
+  .footer-newsletter .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #573d5c;
+    font-style: italic;
+  }
+  
+  .footer-newsletter .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #573d5c;
+    font-style: italic;
+  }
+  
+  .footer-newsletter .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #573d5c;
+    font-style: italic;
+  }
+  
+  .footer-newsletter .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #573d5c;
+    font-style: italic;
+  }
+  
+  .footer-newsletter .form-control:active, .footer-newsletter .form-control:focus {
+    border-bottom: 1px solid #573d5c;;
+  }
+  
+  .footer-newsletter button[type="submit"] {
+    background: none;
+    color:#573d5c;;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .pepe{
+    width: 100%;
+  }
+
+  @media (max-width: 899.98px) {
+
+    .fat{
+      display: flex;
+      justify-content: center;
+      
+    }
+  }

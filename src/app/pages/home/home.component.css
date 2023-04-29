@@ -1,0 +1,277 @@
+.section1{
+    display: flex;
+    padding: 5%;
+    background: #573d5c;
+    
+}
+
+.acomodar-img{
+    background-image: url(../../../assets/section1.jpg);
+    background-size: 155%;
+    background-position: 50% 15%;
+    width: 50%;
+    margin-right: 2%;
+    height: 800px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	  -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.section1-texto{
+    width: 40%;
+    margin-left: 4%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+    text-align: justify;
+    line-height:1.7;
+}
+p{
+  line-height:1.7;
+}
+
+.subtitulo{
+    font-family: 'libre baskerville';
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.titulo,.titulo1{
+    text-align: left;
+    font-family: 'league spartan';
+    font-size: 4.5em;
+    line-height: 1.7em;
+    color: #808080;
+    margin:0px;
+    color:#573d5c;
+}
+
+.titulo{
+  font-size: .8em;
+  color:white;
+  font-family: 'libre baskerville';
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.titulo1{
+  
+    font-size: 3.3em;
+    color:white;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'libre baskerville';
+  
+}
+
+.text-center{
+  height: 5px;
+}
+
+.boton{
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.texto, .cajita1 p, .cajita2 p, button{
+    font-family: 'pt serif';
+    font-size: 15px;
+}
+
+.cajita1{
+    display: flex;
+    flex-wrap: wrap;   
+    margin-top: 40px;
+    height: 80px;
+
+}
+
+.cajita1 p{
+    width: 38%;
+    height: 100px;
+    margin-left: 2%;
+    
+    
+}
+.cajita1 p .icono{
+    width: 20%;
+}
+.cajita2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;   
+
+}
+
+.cajita2 p{
+    width: 38%;
+    height: 100px;
+    margin-left: 2%;    
+}
+.cajita2 p .icono{
+    width: 20%;
+    position: relative;
+    
+}
+
+button{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+.titulo1{
+  color: white;
+  
+}
+
+.section3{
+    padding: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background: #8FA0B4;
+}
+
+  
+  .post .media-custom:hover, .post .media-custom:focus {
+    -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post .media-custom a {
+    color: #000;
+  }
+  
+  .post .media-custom a:hover {
+    color: #65c0ba;
+  }
+  
+  .post .media-custom .media-body {
+    padding: 10px 30px;
+  }
+  
+  .post .media-custom h2 {
+    font-size: 26px;
+  }
+  
+  .media-custom .meta-post {
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  
+  .meta {
+    font-size: 13px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+
+  .media-custom {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  .slider-section {
+    position: relative;
+  }
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 899.98px) { 
+ 
+  .acomodar-img{
+    display: block;
+    background-size: 150%;
+    background-position: 50% 7%;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .section1{
+    height: auto;
+    flex-direction: column;
+    padding: 5%;
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .subtitulo,.titulo,.section1-texto{
+    width: 100%;
+  }
+
+  .titulo1{
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+
+  .subtitulo{
+    font-size:2em;
+  }
+
+  .section1-texto{
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .cajita1,.cajita2{
+    flex-direction: column;
+  }
+  .cajita2{
+    margin-top: 60px;
+  }
+ section div .contact{
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+
+  }
+
+
+   .section3{
+     padding-top: 30px;
+   }
+  
+
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width:900px) and (max-width: 1199.98px) {  
+  .section1 .section-img{
+    height: 10000px;
+  }
+ 
+  
+  section div .contact button{
+    margin-top: 20px;
+    
+ 
+   }
+
+
+  .section3{
+    padding-top: 50px;
+  }
+ 
+
+
+}

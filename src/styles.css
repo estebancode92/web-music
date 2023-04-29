@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+@font-face {
+    font-family: 'league spartan';
+    src: url(assets/LeagueSpartan-Bold.otf);
+  }
+  @font-face {
+    font-family: 'libre baskerville';
+    src: url(assets/LibreBaskerville-Italic.ttf);
+  }
+  @font-face {
+    font-family: 'pt serif';
+    src: url(assets/PTSerif-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'pt serif italic';
+        src: url(assets/PTSerif-Italic.ttf);
+        }
+        @font-face {
+          font-family: 'pt serif bold';
+          src: url(assets/PTSerif-Bold.ttf);
+          }
+
+
+

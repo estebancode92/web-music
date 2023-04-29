@@ -1,0 +1,122 @@
+header{
+ min-height: 100%;
+  width: 100%;
+  background: #573d5c;
+}
+
+
+.titulo1{
+    line-height: 1.7em;
+    padding-left:6%;
+    padding-right:5%;
+    padding-top: 1%;
+    font-size: 3.8em;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'libre baskerville';
+    color:white;
+  
+}
+
+.titulo2{
+    line-height: 1.7em;
+    padding-left:6%;
+    padding-right:5%;
+    padding-top: 1%;
+    font-size: 2em;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'libre baskerville';
+}
+
+.titulo3{ 
+    line-height: 1.7em;
+    padding-left:6%;
+    padding-right:5%;
+    padding-top: 1%;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'libre baskerville';
+}
+
+
+.section1{
+    display: flex;
+    padding: 5%;
+        
+}
+
+.acomodar-img{
+    background-image: url(../../../assets/section1.jpg);
+    background-size: 155%;
+    background-position: 50% 15%;
+    width: 50%;
+    margin-right: 2%;
+    height: 800px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	  -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.section1-texto{
+    width: 40%;
+    margin-left: 4%;
+    padding-top: 20px;
+}
+
+
+
+@media (max-width: 899.98px) { 
+
+    .titulo1{
+        font-size: 3em;
+    }
+
+    .section1-img{
+      display: block;
+      border-radius: 100%;
+      margin-left: 5%;
+      height: 275px ;
+      background-size: 150%;
+      background-position: 50% 7%;
+      height: 200px;
+      
+      
+    }
+    .acomodar-img{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .section1{
+      height: auto;
+      flex-direction: column;
+      padding: 5%;
+      padding-top:50px;
+      padding-bottom: 50px;
+    }
+    .subtitulo,.titulo,.section1-texto{
+      width: 100%;
+    }
+    .section1-texto{
+        margin-left: 0%;
+        width: 100%;
+      }
+
+      @media (min-width:900px) and (max-width: 1199.98px) {  
+        .section1 .section-img{
+          height: 10000px;
+        }
+    }
+
+}
+
+@media (max-width: 450.98px) { 
+    .titulo1{
+        font-size: 2em;
+    }
+    .acomodar-img{
+        height: 400px;
+    }
+}

@@ -1,0 +1,141 @@
+
+*{
+    color:white;
+    margin:0px;
+    padding: 0px;
+}
+
+
+.encabezado{
+  background-image: url("../../../assets/portada5.jpg");
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position-y: -150px;
+  background-attachment: fixed;
+  min-height: 620px;
+  width: 100%;
+}
+
+
+
+.enca{
+    padding: 3%;
+    position: relative;
+    top:7%;
+    height: 420px;
+}
+.titulo{
+    font-family: 'league spartan';
+    font-size: 5.5em;
+    line-height: 80px;
+}
+
+
+.subtitulo{
+    font-family: 'libre baskerville';
+    font-size: 3em;
+    position: relative;
+    bottom: 6px;
+
+
+}
+.texto{
+    font-family: 'pt serif';
+    font-size: 1.5em;
+    line-height: 1.2em;
+    text-align: justify;
+
+}
+
+.botones{
+  flex-direction: column;
+  display: block;
+  height: 100px;
+}
+
+.contact{
+  background: #573d5c;
+  width: 60%;
+  font-size: 20px;
+}
+
+.contactos{
+  display: none;
+}
+
+@media (min-height:440px){
+  .contactos{
+    display: none;
+  }
+}
+
+
+@media (max-width: 380.98px){
+  
+  .contactos{
+    display: block;
+  }
+  .contact{
+    width: 70%;
+  }
+   
+    .encabezado{
+      background-size: 400%;
+      background-position-y: -100px ;
+      width: 100%;
+
+    }
+  
+    .titulo{
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .subtitulo{
+      font-size: 2em;
+      text-align: center;
+    }
+    .texto{
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+}
+
+
+
+@media (min-width:381px) and (max-width: 690.98px) { 
+  .contactos{
+    display: block;
+  }
+    
+    .encabezado{
+      background-size: 300%;
+      background-position-y: -100px ;
+      width: 100%;
+
+    }
+   
+    .titulo{
+      font-size: 3.5em;
+      text-align: center;
+    }
+    .subtitulo{
+      font-size: 2em;
+      text-align: center;
+    }
+    .texto{
+      font-size: 1.5em;
+      text-align: center;
+    }
+   
+  }
+
+  @media (min-width:691px) and (max-width: 991.98px) {  
+    .encabezado{
+        background-size: 200%;        
+      }
+
+
+}
+
+
